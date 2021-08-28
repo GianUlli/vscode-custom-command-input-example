@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Echo example",
+            "command": "echo",
+            "type": "shell",
+            "args": ["${command:vscode-custom-command-input-example.pickTestCase}"],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}
